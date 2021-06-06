@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import HelloWorld from './components/HelloWorld'; //Obtengo mi componenete gracias a react DOM
+// import Header from './components/Header'; //Obtengo mi compoenente gracias a React DOM
+import App from './containers/App'
 
-ReactDOM.render(<HelloWorld />, document.getElementById('app')) //Traer el componente y lo garda en algún elemento del html
+ReactDOM.render(<App />, document.getElementById('app')) //Traer el componente y lo garda en algún elemento del html
